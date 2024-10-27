@@ -1,6 +1,6 @@
 package zad2;
 
-public class ShapeExt {
+public abstract class ShapeExt {
 
     //Metody wirtualne
     public float getArea(){return 0;};

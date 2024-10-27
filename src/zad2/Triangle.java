@@ -10,6 +10,7 @@ public class Triangle extends ShapeExt{
     public Triangle(float a, float b, float c) {
         this.a = a;
         this.b = b;
+        this.c = c;
     }
     public Triangle() {
         this.a = 0;

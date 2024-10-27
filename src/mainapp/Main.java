@@ -1,6 +1,5 @@
 package mainapp;
 import zad1.Shape;
-import zad2.ShapeExt;
 import zad2.Rectangle;
 import zad2.Triangle;
 import zad2.ShapeDescriber;
@@ -13,5 +12,11 @@ public class Main {
         newShape.print();
 
         //Zad3
+        Rectangle rect = new Rectangle(4, 6);
+        Triangle triangle = new Triangle(6, 6, 6);
+
+        ShapeDescriber describer = new ShapeDescriber();
+        describer.describe(rect);
+        describer.describe(triangle);
     }
 }
